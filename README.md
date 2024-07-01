@@ -8,6 +8,9 @@
 
 **Fashion Image Analyzer** é uma ferramenta poderosa e de alto desempenho para análise de imagens de moda feminina, construída com Python. Extraia e classifique imagens de moda com facilidade e precisão.
 
+⚠️ Este projeto apesar de ser desacoplado, foi elaborado como um complemento do projeto [🔗 RastreadorWeb](https://github.com/fabiobraganet/RastreadorWeb)
+ 
+
 ---
 
 ## Índice
