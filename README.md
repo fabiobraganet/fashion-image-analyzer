@@ -213,6 +213,11 @@ Com a capacidade de personalizar a classificação e o processamento de imagens,
 
 ### Arquitetura e Tecnologias Utilizadas
 
+**fashion-image-analyzer** é um projeto Python para analisar imagens de moda feminina. Utiliza TensorFlow para classificação de imagens e salva os resultados em formato JSON. O projeto baixa imagens a partir de URLs fornecidas em um arquivo JSONL, processa as imagens e classifica utilizando modelos pré-treinados. O código é organizado em componentes modulares com serviços para download e classificação, seguindo princípios de SOLID e Clean Code para garantir manutenibilidade e escalabilidade.
+
+<img src="./docs/FashionImageAnalyzer.svg" alt="Desenho básico" width="100%">
+
+
 **Python 3.9:**
 
 Linguagem de programação de alto nível usada para construir a aplicação.
