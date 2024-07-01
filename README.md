@@ -24,19 +24,18 @@
    - [Formatos de Saída](#formatos-de-saída)
 6. [💡 Boas Práticas](#-boas-práticas)
 7. [🤝 Contribuições](#-contribuições)
-8. [📄 Licença](#-licença)
-9. [📞 Suporte](#-suporte)
-10. [📊 Visão Geral Executiva](#visão-geral-executiva)
+
+8. [📊 Visão Geral Executiva](#visão-geral-executiva)
     - [O que é o Fashion Image Analyzer?](#o-que-é-o-fashion-image-analyzer)
     - [Principais Funcionalidades](#principais-funcionalidades)
     - [Casos de Uso](#casos-de-uso)
     - [Benefícios para a Empresa](#benefícios-para-a-empresa)
-11. [🔍 Visão Geral Técnica](#visão-geral-técnica)
+9. [🔍 Visão Geral Técnica](#visão-geral-técnica)
     - [Arquitetura e Tecnologias Utilizadas](#arquitetura-e-tecnologias-utilizadas)
     - [Componentes Principais](#componentes-principais)
     - [Fluxo de Operação](#fluxo-de-operação)
     - [Destaques Técnicos](#destaques-técnicos)
-12. [📘 Manual de Uso do Fashion Image Analyzer](#manual-de-uso-do-fashion-image-analyzer)
+10. [📘 Manual de Uso do Fashion Image Analyzer](#manual-de-uso-do-fashion-image-analyzer)
     - [Introdução](#introdução)
     - [Instalação](#instalação)
       - [Pré-requisitos](#pré-requisitos-1)
@@ -52,6 +51,8 @@
       - [Exemplo de Arquivo JSON](#exemplo-de-arquivo-json)
     - [Boas Práticas](#boas-práticas-1)
     - [Suporte e Contribuição](#suporte-e-contribuição)
+11. [📄 Licença](#-licença)
+12. [📞 Suporte](#-suporte)
 
 ---
 
@@ -74,21 +75,21 @@
 ### Passos
 
 1. **Clone o Repositório:**
-   """
+   ```
    git clone https://github.com/seu-usuario/fashion-image-analyzer.git
    cd fashion-image-analyzer
-   """
+   ```
 
 2. **Crie um Ambiente Virtual:**
-   """
+   ```
    python -m venv venv
    source venv/bin/activate  # No Windows use `venv\Scripts\activate`
-   """
+   ```
 
 3. **Instale as Dependências:**
-   """
+   ```
    pip install -r requirements.txt
-   """
+   ```
 
 ---
 
@@ -106,9 +107,9 @@
 ### Comandos Básicos
 
 1. **Executar o Analisador de Imagens:**
-   """
+   ```
    python src/main.py
-   """
+   ```
 
 ---
 
@@ -117,7 +118,7 @@
 **Formatos de Saída:**
 
 - **JSON:**
-  """
+  ```
   [
       {
           "url": "http://exemplo.com/imagem1.jpg",
@@ -134,7 +135,7 @@
           ]
       }
   ]
-  """
+  ```
 
 ---
 
@@ -158,19 +159,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 📞 Suporte
-
-Para suporte adicional, abra uma issue no repositório ou entre em contato com os mantenedores.
-
----
-
-## Visão Geral Executiva
+## 📊 Visão Geral Executiva
 
 ***O que é o Fashion Image Analyzer?***
 
@@ -220,7 +209,7 @@ Com a capacidade de personalizar a classificação e o processamento de imagens,
 
 ---
 
-## Visão Geral Técnica
+## 🔍 Visão Geral Técnica
 
 ### Arquitetura e Tecnologias Utilizadas
 
@@ -297,15 +286,11 @@ O Fashion Image Analyzer é uma ferramenta projetada para facilitar a análise e
 #### Comandos Básicos
 
 1. Execute o analisador de imagens com o comando:
-   """
+
+   ```
    python src/main.py
-   """
+   ```
 
-#### Exemplos de Uso
-
-"""
-python src/main.py
-"""
 
 ### Armazenamento de Dados
 
@@ -315,25 +300,43 @@ python src/main.py
 
 #### Exemplo de Arquivo JSON
 
-```
-[
-    {
-        "url": "http://exemplo.com/imagem1.jpg",
-        "classifications": [
-            {"class_id": "n123456", "class_name": "dress", "score": 0.95},
-            {"class_id": "n654321", "class_name": "skirt", "score": 0.05}
-        ]
-    }
-]
-```
+1. Arquivo Json
 
-### Boas Práticas
+    ```
+    [
+        {
+            "url": "http://exemplo.com/imagem1.jpg",
+            "classifications": [
+                {"class_id": "n123456", "class_name": "dress", "score": 0.95},
+                {"class_id": "n654321", "class_name": "skirt", "score": 0.05}
+            ]
+        }
+    ]
+    ```
+
+---
+
+## 💡 Mais Boas Práticas
 
 - Verifique o formato dos dados.
 - Utilize um ambiente virtual para isolar as dependências do projeto.
 - Respeite as leis de direitos autorais e privacidade ao baixar e processar imagens.
 
+---
+
 ### Suporte e Contribuição
+
+Para suporte adicional, abra uma issue no repositório ou entre em contato com os mantenedores.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 📞 Suporte
 
 Para suporte adicional, abra uma issue no repositório ou entre em contato com os mantenedores.
 
